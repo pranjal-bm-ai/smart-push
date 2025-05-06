@@ -22,4 +22,6 @@ const pushSubscription = {
   }
 };
 
-webpush.sendNotification(pushSubscription, 'Your Push Payload Text');
+let sub = {"endpoint":"https://fcm.googleapis.com/fcm/send/dQ0ku1ZU7qs:APA91bGz1RcZUnNiK-I75hSZ-MatoarfO_bvn_ByNQ9EJs9gSGTe-JPNRREypQRhl8-hLC6vn-keOIsBWLgFVx-X1VMs6qwweAPAecsYSNwxNZwCFzUdoIZjBWoncDiwnZvOWWHHZ6rR","expirationTime":null,"keys":{"p256dh":"BA_NSSTW3AmMCn0yZUfs3SRoCup5vj_ZwofHnb4dqhP_jhTDV9dgvmxvjrYmL3C6E_hqbHwW4RH6qERIP8RLmgA","auth":"UMmPaLI6viROeje5LUhsJA"}}
+
+webpush.sendNotification(sub, 'Your Push Payload Text');
