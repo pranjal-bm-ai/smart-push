@@ -6,7 +6,7 @@ self.addEventListener('push', () => {
 
     var options = {
         body: 'Install our bright money app to get 100% cashback',
-        icon: 'ihttps://images.brightmoney.co/AMP_LP/new_gradient_logo.png',
+        icon: 'https://images.brightmoney.co/AMP_LP/new_gradient_logo.png',
         vibrate: [100, 50, 200],
         data: {
           dateOfArrival: Date.now(),
