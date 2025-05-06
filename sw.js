@@ -1,12 +1,12 @@
 self.addEventListener('push', () => {
-    self.registration.showNotification('Hello world!', options);
+    self.registration.showNotification('Hey User', options);
   });
 
   self.addEventListener('push', function(e) {
 
     var options = {
-        body: 'This notification was generated from a push!',
-        icon: 'images/exmpale.png',
+        body: 'Install our bright money app to get 100% cashback',
+        icon: 'ihttps://images.brightmoney.co/AMP_LP/new_gradient_logo.png',
         vibrate: [100, 50, 200],
         data: {
           dateOfArrival: Date.now(),
